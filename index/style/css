@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #111;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 15px 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.hero {
+  padding: 60px 0;
+  background: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
