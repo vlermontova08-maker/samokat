@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WorkFlow — Работа рядом с домом</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">WorkFlow</div>
+      <a href="#form" class="header-btn">Оставить заявку</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      
+      <div class="hero-text">
+        <h1>Работа рядом с домом</h1>
+        <p class="subtitle">
+          До <span>210 000 ₽</span> в месяц.  
+          Гибкий график. Еженедельные выплаты.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#form" class="btn primary">Оставить заявку</a>
+          <a href="#vacancies" class="btn secondary">Смотреть вакансии</a>
+        </div>
+
+        <div class="hero-tags">
+          <div>Без опыта</div>
+          <div>Быстрое оформление</div>
+          <div>Рядом с домом</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section">
+    <div class="container">
+
+      <h2>Преимущества</h2>
+
+      <div class="grid">
+        <div class="card">Доход до 210 000 ₽</div>
+        <div class="card">Гибкий график</div>
+        <div class="card">Работа рядом с домом</div>
+        <div class="card">Еженедельные выплаты</div>
+        <div class="card">Обучение</div>
+        <div class="card">Без опыта</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VACANCIES -->
+  <section id="vacancies" class="section dark">
+    <div class="container">
+
+      <h2>Вакансии</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Курьер</h3>
+          <p>Доставка заказов в городе</p>
+        </div>
+
+        <div class="card">
+          <h3>Сборщик</h3>
+          <p>Сборка заказов на складе</p>
+        </div>
+
+        <div class="card">
+          <h3>Комплектовщик</h3>
+          <p>Работа на складе</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container">
+
+      <h2>Как начать</h2>
+
+      <div class="steps">
+        <div>1. Оставь заявку</div>
+        <div>2. Дождись звонка</div>
+        <div>3. Оформись</div>
+        <div>4. Выходи на смену</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section id="form" class="section form-section">
+    <div class="container">
+
+      <h2>Оставить заявку</h2>
+
+      <form>
+        <input type="text" placeholder="Имя" required>
+        <input type="tel" placeholder="Телефон" required>
+        <select>
+          <option>Курьер</option>
+          <option>Сборщик</option>
+          <option>Комплектовщик</option>
+        </select>
+
+        <button type="submit">Отправить</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 WorkFlow. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
